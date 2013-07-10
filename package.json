@@ -1,0 +1,28 @@
+{
+    "name": "ignitionx",
+    "version": "0.0.0",
+    "description": "Templates for jump-starting nginx configuration.",
+    "homepage": "http://github.com/spro/ignitionx",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spro/ignitionx.git"
+    },
+    "author": {
+        "name": "Sean Robertson",
+        "url": "http://sprobertson.com"
+    },
+    "keywords": [
+        "nginx",
+        "configuration"
+    ],
+    "bin": {
+        "ignitionx": "bin/ignitionx.js"
+    },
+    "scripts": {
+        "build": "./build.sh"
+    },
+    "dependencies": {
+        "optimist": "0.5.2"
+    },
+    "preferGlobal": true
+}
